@@ -11,8 +11,9 @@ addons:
       - gcc-4.8
       - libzmq3-dev
 node_js:
-  - "V4"
- 
+  - "v0.10.25"
+  - "v0.12.7"
+  - "v4"
 script:
   - npm run regtest
   - npm run test
