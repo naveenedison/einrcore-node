@@ -1,18 +1,18 @@
 {
-  "name": "litecore-node",
-  "description": "Full node with extended capabilities using Litecore and Litecoin Core",
+  "name": "einrcore-node",
+  "description": "Full node with extended capabilities using einrcore and einrcoin Core",
   "author": "BitPay <dev@bitpay.com>",
   "version": "3.1.11",
   "main": "./index.js",
-  "repository": "git://github.com/litecoin-project/litecore-node.git",
-  "homepage": "https://github.com/litecoin-project/litecore-node",
+  "repository": "git://github.com/naveenedison/einrcore-node.git",
+  "homepage": "https://github.com/naveenedison/einrcore-node",
   "bugs": {
-    "url": "https://github.com/litecoin-project/litecore-node/issues"
+    "url": "https://github.com/naveenedison/einrcore-node/issues"
   },
   "contributors": [
     {
       "name": "Charlie Lee",
-      "email": "coblee@litecoin.org"
+      "email": "coblee@einrcoin.org"
     },
     {
       "name": "Christopher Jeffrey"
@@ -35,8 +35,8 @@
     }
   ],
   "bin": {
-    "litecore-node": "./bin/litecore-node",
-    "litecoind": "./bin/litecoind"
+    "einrcore-node": "./bin/einrcore-node",
+    "einrcoind": "./bin/einrcoind"
   },
   "scripts": {
     "preinstall": "./scripts/download",
@@ -48,8 +48,8 @@
     "coveralls": "./node_modules/.bin/istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly -- --recursive -R spec && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js"
   },
   "tags": [
-    "litecoin",
-    "litecoind"
+    "einrcoin",
+    "einrcoind"
   ],
   "dependencies": {
     "async": "^1.3.0",
@@ -59,8 +59,8 @@
     "errno": "^0.1.4",
     "express": "^4.13.3",
     "liftoff": "^2.2.0",
-    "litecoind-rpc": "^0.7.1",
-    "litecore-lib": "^0.13.22",
+    "einrcoind-rpc": "^0.7.1",
+    "einrcore-lib": "^0.13.22",
     "lru-cache": "^4.0.1",
     "mkdirp": "0.5.0",
     "path-is-absolute": "^1.0.0",
@@ -75,7 +75,7 @@
   },
   "devDependencies": {
     "benchmark": "1.0.0",
-    "litecore-p2p": "^1.1.2",
+    "einrcore-p2p": "^1.1.2",
     "chai": "^3.5.0",
     "coveralls": "^2.11.9",
     "istanbul": "^0.4.3",
